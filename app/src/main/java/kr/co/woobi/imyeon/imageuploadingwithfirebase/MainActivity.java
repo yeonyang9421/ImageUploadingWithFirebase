@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
 
             Glide.with(this)
                     .load(mImageUri)
-                    .centerCrop()
+                    .centerInside()
                     .placeholder(R.mipmap.ic_launcher)
                     .into(mImageView);
 
